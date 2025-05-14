@@ -141,7 +141,7 @@ header nav ul li a:hover {
 
 @keyframes type {
   to {
-    width: 35%;
+    width: 100%;
   }
 }
 
@@ -508,6 +508,10 @@ footer a:hover {
 }
 
 @media (max-width: 768px) {
+    html, body{
+        font-size: 0.9rem;
+        width: 100%;
+    }
   header nav ul {
     flex-direction: column;
     gap: 0.5rem;
@@ -527,7 +531,7 @@ footer a:hover {
 
 @media (max-width: 480px) {
   .hero h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
   .hero p {
     font-size: 1.2rem;
